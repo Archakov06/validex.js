@@ -20,6 +20,7 @@ jQuery plugin for validation inputs by regular expression
 ```
 
 If regular express condition does not work, run method `onNotValid` and for element `#fullname-group` set class `has-error`.
+
 *Class `has-error` used to Bootstrap 3.*
 
 #### Example #2 with regular express in attribute [data-validex]
