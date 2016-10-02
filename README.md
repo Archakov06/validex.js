@@ -32,3 +32,10 @@ If regular express condition does not work, run method `onNotValid` and for elem
 ```html
   <input type="text" id="twitter-input" value="@archakov06" placeholder="Enter Twitter username" data-validex="^@([A-Za-z0-9_]{1,15})+$" class="form-control">
 ```
+
+##### All methods
+* onValid
+* onNotValid
+* condRequired
+* onBefore
+* onAfter
