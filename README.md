@@ -1,2 +1,2 @@
 # validex
-jQuery plugin for validation form
+A jQuery plugin for validation inputs by regular expression

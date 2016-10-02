@@ -1,0 +1,10 @@
+{
+  "name": "validex",
+  "description": "jQuery plugin for validation inputs by regular expression",
+  "version": "1.0.0",
+  "homepage": "http://archakov.im/post/validex.html",
+  "author": {
+  	"name": "Archakov Dennis",
+  	"email": "hello@archakov.im"
+  }
+}

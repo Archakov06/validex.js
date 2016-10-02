@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validex.js Demo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="col-md-12">
+		<div id="fullname-group" class="form-group">
+	    <label for="fullname-input">Fullname</label>
+	    <input type="text" class="form-control" id="fullname-input">
+	  </div>
+	</div>
+
+	<div class="col-md-12">
+		<div id="email-group" class="form-group">
+	    <label for="fullname-input">E-Mail</label>
+	    <input type="email" class="form-control" id="email-input">
+	  </div>
+	</div>
+
+	<div class="col-md-12">
+		<div id="hex-group" class="input-group" style="margin-bottom: 15px;">
+			<span style="background-color: #38b8f5" class="input-group-addon">&nbsp;&nbsp;</span>
+			<input type="text" value="#38b8f5" class="form-control" id="hex-input">
+		</div>
+	</div>
+
+	<div class="col-md-12">
+		<div id="twitter-group" class="form-group">
+	    	<label for="fullname-input">Twitter Username</label>
+	    	<input type="text" value="@archakov06" data-validex="^@([A-Za-z0-9_]{1,15})+$" class="form-control" id="twitter-input">
+		</div>
+	</div>
+
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="../dist/validex.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
