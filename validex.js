@@ -56,7 +56,7 @@
 
 	}
 
-   	$this.on( 'keyup', function(){
+   	$this.on('keyup change', function(){
     	
 		options.onBefore( $this, options.target );
 
