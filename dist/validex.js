@@ -5,7 +5,7 @@
   	var $this = $(this);
   	var pattern = null;
 
-  	if (typeof $this.attr('data-validex') == 'string') pattern = $this.attr('data-validex');
+  	if (typeof $this.attr('pattern') == 'string') pattern = $this.attr('pattern');
 
     var defaults = {
     	pattern: null,
@@ -45,7 +45,7 @@
 
 	}
 
-   	$this.on( 'keyup', function(){
+   	$this.on( 'keyup change', function(){
     	
 		options.onBefore( $this, options.target );
 
